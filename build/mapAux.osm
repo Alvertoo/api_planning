@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' >
+<bounds minlat='38.3795000' minlon='-0.5194000' maxlat='38.3889000' maxlon='-0.5078000'/>
+<node id='1' lat='38.3795' lon='-0.5194'/>
+<node id='2' lat='38.3796' lon='-0.51929'/>
+<node id='3' lat='38.3796' lon='-0.51914'/>
+<node id='4' lat='38.3798' lon='-0.51904'/>
+<node id='5' lat='38.3799' lon='-0.51887'/>
+<node id='6' lat='38.3801' lon='-0.51866'/>
+<node id='7' lat='38.3802' lon='-0.51864'/>
+<node id='8' lat='38.3804' lon='-0.51855'/>
+<node id='9' lat='38.3805' lon='-0.51854'/>
+<node id='10' lat='38.3807' lon='-0.51853'/>
+<node id='11' lat='38.3809' lon='-0.51842'/>
+<node id='12' lat='38.381' lon='-0.51824'/>
+<node id='13' lat='38.3812' lon='-0.5182'/>
+<node id='14' lat='38.3812' lon='-0.51815'/>
+<node id='15' lat='38.3814' lon='-0.51792'/>
+<way id='1'>
+<nd ref='1'/>
+<nd ref='2'/>
+</way>
+<way id='2'>
+<nd ref='2'/>
+<nd ref='3'/>
+</way>
+<way id='3'>
+<nd ref='3'/>
+<nd ref='4'/>
+</way>
+<way id='4'>
+<nd ref='4'/>
+<nd ref='5'/>
+</way>
+<way id='5'>
+<nd ref='5'/>
+<nd ref='6'/>
+</way>
+<way id='6'>
+<nd ref='6'/>
+<nd ref='7'/>
+</way>
+<way id='7'>
+<nd ref='7'/>
+<nd ref='8'/>
+</way>
+<way id='8'>
+<nd ref='8'/>
+<nd ref='9'/>
+</way>
+<way id='9'>
+<nd ref='9'/>
+<nd ref='10'/>
+</way>
+<way id='10'>
+<nd ref='10'/>
+<nd ref='11'/>
+</way>
+<way id='11'>
+<nd ref='11'/>
+<nd ref='12'/>
+</way>
+<way id='12'>
+<nd ref='12'/>
+<nd ref='13'/>
+</way>
+<way id='13'>
+<nd ref='13'/>
+<nd ref='14'/>
+</way>
+<way id='14'>
+<nd ref='14'/>
+<nd ref='15'/>
+</way>
+<way id='15'>
+<nd ref='15'/>
+</way>
+</osm>

@@ -1,0 +1,22 @@
+cmake_minimum_required(VERSION 3.5)
+project(projectPlanning)
+
+FIND_PACKAGE(planning REQUIRED)
+FIND_PACKAGE(Eigen3 REQUIRED)
+FIND_PACKAGE(Threads REQUIRED)
+
+INCLUDE_DIRECTORIES(${EIGEN_INCLUDE_DIR})
+ADD_DEFINITIONS(-DENABLE_OPENSSL=0 -DENABLE_COMPRESSION=0 -std=c++11 )
+
+SET_SOURCE_FILES_PROPERTIES(apiexample.cc PROPERTIES LANGUAGE CXX )
+
+SET(THREADS_PREFER_PTHREAD_FLAG ON)
+SET(TARGET_SOURCES apiGraph.cc)
+SET(COMMON_SOURCES glovehttpserver.cpp glove.cpp glovewebsockets.cpp glovecoding.cpp glovehttpcommon.cpp)
+
+ADD_EXECUTABLE(graphApi ${TARGET_SOURCES} ${COMMON_SOURCES} ) 
+TARGET_LINK_LIBRARIES(graphApi planning Threads::Threads)
+
+
+
+

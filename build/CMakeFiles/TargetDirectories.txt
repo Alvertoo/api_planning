@@ -1,0 +1,3 @@
+/home/trabajo/Escritorio/api2/glove/build/CMakeFiles/edit_cache.dir
+/home/trabajo/Escritorio/api2/glove/build/CMakeFiles/rebuild_cache.dir
+/home/trabajo/Escritorio/api2/glove/build/CMakeFiles/graphApi.dir
